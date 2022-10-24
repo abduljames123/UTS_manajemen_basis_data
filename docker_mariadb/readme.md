@@ -1,10 +1,21 @@
-Create a container:
+# Running DBMS via Docker
 
+1. Pull docker-compose.yml
+2. cd the directory:
+3. Run the following command (terminal/cmd):
+
+
+## Create a container:
 ```terminal
 docker compose up -d
 ```
 
-Start, Stop, Restart:
+## Check the active container:
+```
+docker container ls
+```
+
+## Start, Stop, Restart container: 
 ```
 docker compose start
 
