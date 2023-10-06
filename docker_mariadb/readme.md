@@ -1,6 +1,6 @@
 # Running DBMS via Docker
 
-1. Pull docker-compose.yml
+1. Clone
 2. cd the directory:
 3. Run the following command (terminal/cmd):
 
