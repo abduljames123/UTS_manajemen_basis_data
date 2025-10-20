@@ -1,10 +1,11 @@
 version: '3.1'
 
 services:
-  mariadb10:
-    container_name: kelas_mariadb10
-    image: mariadb:10.6.4
+
+  mariadb_kelas_a:
+    container_name: mariadb_kelas_a
+    image: mariadb:latest
     ports:
-      - 3306:3306
+      - 3307:3306
     environment:
-      - MYSQL_ROOT_PASSWORD=MYPASSWORD
+      - MYSQL_ROOT_PASSWORD=informatika
